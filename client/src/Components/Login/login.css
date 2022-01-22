@@ -1,0 +1,70 @@
+.loginPage{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top : 10%;
+}
+
+.login{
+    padding : 5%;
+    border-radius: 8px;
+    background: linear-gradient(to right bottom, #001845, #002855);
+}
+
+input:focus{
+    outline: none;
+}
+
+.inputbox{
+    color: white;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    float: right;
+    margin-left: 5px;
+}
+
+
+.authTitle{
+    text-align: center;
+}
+
+.logbtn{
+    color: white;
+    border: none;
+    border : 2px solid white;
+    background: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.logbtn:hover{
+    background-color: #ade8f4;
+    transition: 0.2s;
+    color: black;
+    cursor: pointer;
+}
+
+.sign{
+    margin-top: 30px;
+    display: flex;
+}
+
+.signbtn{
+    color: white;
+    border: none;
+    border : 2px solid white;
+    background: none;
+    margin-left: 10px;
+    margin-top: 12px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.signbtn:hover{
+    background-color: #ade8f4;
+    transition: 0.2s;
+    color: black;
+    cursor: pointer;
+}
